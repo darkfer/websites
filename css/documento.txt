@@ -1,0 +1,60 @@
+/*Diseño minimo se ajuste a 480px y menos de 700px Moviles
+728px hasta 1200 es un diseño desktop.
+
+/*Diferencia de inline-block
+Todo el diseño en la web son cajas, hay cajas que son listas.
+cajas block y otras cajas inline
+
+Si tengo una caja inline:
+Ventajas inline: Se puede combinar con otros diseños, no se puede colocar margenes padding si los aceptos, 
+tampoco estructuracion.
+Cajas de tipo block:
+caracteristica 1: el bloque ocupa el maximo del ancho, si autojustan el ancho, ocupa el maximo de los margenes.
+Los bloques no permiten tener nada enfrente.
+Se les puede colocar margenes y padding.
+Las etiquetas de caja no son bloques, los inline blocks se les puede colocar margenes.
+Hay que forzarlas que se vuelvan inline blocks. Diseños multi-columna es inline block.
+;
+
+Los reset.css son terribles eliminan todos los estilos de diseño.
+son una mala practica. 
+Es mejor utilizar normalize.css regula el diseño y hace
+que el diseño se vea igual en todos los navegadores.
+
+El alto se ajusta proporcionalmente el valor del ancho
+
+Reclas de codificacion en css
+1. Todos los atributos en orden alfabetico
+2. Orden de estilos:
+	*. Pre-render
+	1. Etiquetas
+	2. IDs
+	3. Clases
+3. Orden alfabetico todos los estilos
+4. Identar y hacer codigo LINDO
+
+
+Cuando se tiene un elemento que esta a la izquierda y cuyos elementos no estan alineados, no es una buena practica usar display: inline-block
+
+fuentes y topografias especiales
+
+.ttf
+.otf
+
+EOT: Internet explorer
+
+ SVG: Es usado en zafari
+
+ TTF: Opera, zafari y chrome en algunas versiones
+
+ WOFF: funciona en casi todos los navegadores.
+
+ Sitios:
+ www.fontsquirrel.com: compila fuentes completamente gratuitas
+ google.com/fonts
+
+
+
+  debo aprender este tipo de tipografias.
+
+Tarea abrir una cuenta en Github
